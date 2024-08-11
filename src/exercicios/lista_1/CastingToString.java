@@ -7,7 +7,7 @@ public class CastingToString {
     private static final Scanner io = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.print("Me dê um decimal: ");
+        System.out.print("Me dê um decimal:  ");
         double decimal = io.nextDouble();
 
         String toString = String.valueOf(decimal);
