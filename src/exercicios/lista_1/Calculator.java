@@ -9,10 +9,12 @@ public class Calculator {
 
         while (true) {
             System.out.println("-".repeat(20));
-            System.out.print("Qual operação você deseja fazer? ");
+            System.out.println("Qual operação você deseja fazer? ");
             double option = getOption();
             if (option == 0) break;
 
+            // Tipo de variável ficou double por opção
+            // preferi usar no lugar do int por que fazia mas jus a funcionalidade de uma calculadora
             System.out.print("Digite o primeiro número: ");
             double firstDigit = io.nextDouble();
 

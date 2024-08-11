@@ -16,6 +16,6 @@ public class BaseExponent {
         System.out.print("Me dê o expoente: ");
         double expoente = io.nextDouble();
 
-        System.out.println(base + " Elevado a " + expoente + " é igual a: " + (Math.pow(base, expoente)));
+        System.out.println(base + " Elevado a " + expoente + " é igual a " + (Math.pow(base, expoente)));
     }
 }
