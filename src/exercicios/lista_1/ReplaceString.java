@@ -10,15 +10,15 @@ public class ReplaceString {
         String frase = io.nextLine();
 
         System.out.println("Digite qual caracter você quer substituir: ");
-        String ch = io.nextLine();
+        char ch = io.next().charAt(0);
 
         System.out.print("Digite o novo caracter: ");
-        String newCh = io.nextLine();
+        char newCh = io.next().charAt(0);
 
         System.out.print("Nova frase: " + replaceChars(frase, ch, newCh));
     }
 
-    public static String replaceChars(String str, String ch, String newCh) {
-        return str.replaceAll(ch, newCh);
+    public static String replaceChars(String str, char ch, char newCh) {
+        return str.replaceAll(String.valueOf(ch), String.valueOf(newCh));
     }
 }
