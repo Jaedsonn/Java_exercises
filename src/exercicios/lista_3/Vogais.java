@@ -19,7 +19,7 @@ public class Vogais {
 
         for (int i = 0; i < palavraSeparada.length; i++) {
             for (int j = 0; j < vogais.length - 1; j++) {
-                System.out.println(palavraSeparada[i] + " = " + vogais[j]);
+
                 if (Objects.equals(palavraSeparada[i], vogais[j])) {
                     vogaisNum++;
                 }
